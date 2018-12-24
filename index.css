@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(13, 171, 180, 0.2);
+  transform-style: preserve-3d;
+  flex-direction: column;
+  justify-content: center;
+  transform: perspective(1000px);
+  align-items: center;
+}
+
+.hero {
+  width: 90%;
+  height: 400px;
+  margin: 40px 0;
+  transform: translateZ(20px);
+}
+
+.title {
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  color: rgb(13, 171, 180);
+}
+
+.message {
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
