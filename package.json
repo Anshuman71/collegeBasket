@@ -1,0 +1,21 @@
+{
+  "name": "collegebasket",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "start:lambda": "netlify-lambda serve functions",
+    "build:lambda": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuman71/collegeBasket.git"
+  },
+  "author": "Anshuman Bhardwaj <anshu5074@gmail.com> (https://anshuman71.github.com/goodtogo71)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anshuman71/collegeBasket/issues"
+  },
+  "homepage": "https://github.com/Anshuman71/collegeBasket#readme"
+}
