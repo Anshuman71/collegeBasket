@@ -4,6 +4,7 @@
   "description": "Landing Page",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "start:lambda": "netlify-lambda serve functions",
     "build:lambda": "netlify-lambda build functions",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Anshuman71/collegeBasket/issues"
   },
-  "homepage": "https://github.com/Anshuman71/collegeBasket#readme"
+  "homepage": "https://github.com/Anshuman71/collegeBasket#readme",
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
 }
