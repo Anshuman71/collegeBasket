@@ -128,21 +128,21 @@ footer {
 }
 
 .anubhav {
-  background-image: url('/static/anubhav.jpeg');
+  background-image: url('./anubhav.jpeg');
 }
 
 .anshuman {
-  background-image: url('/static/Me.jpg');
+  background-image: url('./Me.jpg');
 }
 .gaurav {
-  background-image: url('/static/gaurav.jpeg');
+  background-image: url('./gaurav.jpeg');
 }
 
 .madhav {
-  background-image: url('/static/madhav.jpg');
+  background-image: url('./madhav.jpg');
 }
 .lakshay {
-  background-image: url('/static/lakshay.jpg');
+  background-image: url('./lakshay.jpg');
 }
 
 .social {
