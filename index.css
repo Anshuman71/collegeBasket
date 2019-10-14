@@ -5,6 +5,30 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.whyNotUpdated {
+  padding: 20px;
+  font-weight: 500;
+}
+
+
+.banner {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #0dabb4;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  z-index: 500;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
 .container {
   padding: 30px 10px;
   min-height: 100vh;
